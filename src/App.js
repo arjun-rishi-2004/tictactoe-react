@@ -95,10 +95,10 @@ function calculateWinner(squares){
 
     const[a,b,c]=winning_combinations[i];
 
-    if (squares[a]=="X" && squares[b]=="X" && squares[c]=="X"){
+    if (squares[a]==="X" && squares[b]==="X" && squares[c]==="X"){
       return squares[a];
     }
-    else if (squares[a]=="O" && squares[b]=="O" && squares[c]=="O"){
+    else if (squares[a]==="O" && squares[b]==="O" && squares[c]=="O"){
       return squares[a];
     }
   }
